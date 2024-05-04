@@ -147,7 +147,45 @@ nav {
 }
 
 
-/* Container Design */
+/* Wrapper Design */
+.wrapper {
+    padding-inline: 10vw;
+}
+
+
+/* Featured Box */
+.featured-box {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    min-height: 700px;
+}
+
+/* Featured Text Box */
+.featured-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 80vh;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.featured-text-card span {
+    background: var(--third-color);
+    color: var(--color-white);
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+/* Featured Image Box */
+
+
+/* Main Box */
+
 
 
 /* Media Query == 1024px / Responsive */
@@ -159,7 +197,7 @@ nav {
     }
 
     .nav-menu.responsive {
-        left: 0;
+        left: 0%;
     }
 
     .nav-menu {
