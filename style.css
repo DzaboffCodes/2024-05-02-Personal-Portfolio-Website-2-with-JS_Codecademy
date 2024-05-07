@@ -241,7 +241,7 @@ nav {
 
 .social_icons {
     display: flex;
-    margin-top: 5em;
+    /* margin-top: 5em; */
     gap: 30px;
 }
 
